@@ -22,6 +22,9 @@ gem 'turbolinks', '~> 5'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# To hide API keys
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Better forms FTW
 gem 'simple_form', github: 'heartcombo/simple_form'
 
