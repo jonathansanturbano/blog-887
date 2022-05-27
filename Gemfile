@@ -28,6 +28,9 @@ gem 'dotenv-rails', groups: [:development, :test]
 # Better forms FTW
 gem 'simple_form', github: 'heartcombo/simple_form'
 
+# Store user-uploaded images on El Cloudo
+gem 'cloudinary', '~> 1.16.0'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
